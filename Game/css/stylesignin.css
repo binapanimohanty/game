@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.bg-img{
+    background: url(../img/play1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center; 
+
+}
+.bg-img:after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+.content{
+    position: absolute;
+    top: 5%;
+    /* left: 5%; */
+    transform: translate(10%,10%);
+    text-align: left;
+    z-index: 999;
+    text-align: centers;
+    padding: 40px 20px;
+    border-radius: 22px;
+    width: 300px;
+    background:rgba(0,0,0,0.7);
+    box-shadow: -1px 4px 28px 0px rgb(0 0 0  90%);
+}
+.content header{
+    color: white;
+    font-size: 33px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    font-family: 'montserrat',sans-serif;
+    text-align: center;
+}
+.field{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background:rgba(255,255,255,0.94) ;
+}
+.field span{
+    color: #222;
+    width: 40px;
+    line-height:50px;
+}
+.field input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+    font-family: 'poppinss',sans-serif;
+}
+.show{
+    position: absolute;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+    cursor: pointer;
+    display: none;
+    font-family: sans-serif;
+}
+.password:valid ~ .show{
+    display: block;
+}
+.space{
+    margin-top: 16px;
+}
+span{
+    padding-left: 4px;
+}
+.pass{
+    text-align: left;
+    margin: 5px 0;
+}
+.pass a{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.pass:hover a{
+    text-decoration: underline;
+}
+input[type="submit"]{
+    background: #3498db;
+    border: 1px solid #2691d9;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+input[type="submit"]:hover{
+    background: #2691d9;
+}
+.signin{
+    color: white;
+    margin: 20px 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+.link{
+    display: flex;
+    cursor: pointer;
+    color: white;
+    margin: 0 0 20px 0;
+}
+.facebook, .Google{
+    width: 100%;
+    height: 45px;
+    line-height:45px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.facebook{
+    margin-left: 0px;
+    background: #4267B2;
+    border:1px solid #3e61a8;
+    text-align: center;
+}
+.Google{
+    background:#f81e1e;
+    border: 1px solid #d42d2d;
+    text-align: center;
+}
+.link i{
+    font-size: 17px;
+}
+.link span{
+    font-size: 16px;
+    margin-left: 8px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.signup{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.signup a{
+    color: #3498db;
+    text-decoration: none;
+}
+.signup a:hover{
+    text-decoration: underline;
+}
+h3{
+    color: white;
+    font-size: 20px;
+}
+.reset{
+    background: transparent;
+    text-decoration: none;
+    border-color: transparent;
+    color: white;
+    outline: none;
+    
+}
+.reset input{
+
+}
+h6{
+    color: white;
+    margin-top: 10px;
+}
+.row{
+    display:flex;
+    padding: 20px 20px;
+    letter-spacing: 1px;
+    font-size: 21px;
+   
+}
+.column1{
+    height: 100px;
+    width: 100px;
+    background: rgba(25, 219, 226, 0.7);
+    border-radius: 10px;
+}
+.column2{
+    margin-left: 15px;
+    height: 100px;
+    width: 100px;
+    background: rgba(25, 219, 226, 0.7);
+    border-radius: 10px;
+}
+.row, .column1 a{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+}
+.row, .column2 a{
+  text-decoration: none;
+  color:white;
+}
+.column3{
+    height: 100px;
+    width: 100px;
+    background: rgba(54, 133, 236, 0.7);
+    border-radius: 10px;
+    color: white;
+}
+.column4{
+    margin-left: 15px;
+    height: 100px;
+    width: 100px;
+    background: rgba(54, 133, 236, 0.7);
+    border-radius: 10px;
+   
+}
+.row, .column3 a{
+    text-decoration: none;
+    color:white;
+}
+.row, .column4 a{
+    text-decoration: none;
+    color:white;
+  }
